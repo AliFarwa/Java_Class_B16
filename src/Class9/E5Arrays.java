@@ -13,8 +13,6 @@ public class E5Arrays {
         for (int i=0; i<chars.length ;i+=2){
             System.out.print(chars[i]+" ");
         }
-
-
     }
 
 }

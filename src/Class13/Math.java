@@ -9,8 +9,8 @@ public class Math {
 
    void multiply(int num3, int num4) {
         System.out.println(num3 * num4);
-
     }
+
 
 
     public static void main(String[] args) {
