@@ -2,8 +2,8 @@ package class1;
 
 public class FirstJavaClass {
     public static void main(String[] args) {
+
         System.out.println("Hello World");
-    }
 
     /* To create the main method just like below once
        we can write main all in lowercase and can hit the
@@ -18,7 +18,7 @@ public class FirstJavaClass {
 
     }
 
-
+}
 
 
 
