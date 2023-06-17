@@ -21,6 +21,7 @@ public class E1ExcelFile {
         cell.setCellValue("Wael");
         cell1.setCellValue("Jacob");
 
+        //used when we have to create a new file:
         FileOutputStream fileOutputStream=new FileOutputStream("C:\\Users\\User\\IdeaProjects\\SDETJavabatch 16\\Files\\TestExcelFile.xlsx");
         xssfWorkbook.write(fileOutputStream);
 

@@ -33,7 +33,7 @@ public class ConfigReader {
     public static String getProperty(String key) throws IOException {
 
       // to read single property.
-        Properties properties=getProperties(Constants.CONFIG_READER_PATH);
+        Properties properties=getProperties(Constants.EXCEL_FILE_PATH);
         String value=properties.getProperty(key);
         return value;
     }

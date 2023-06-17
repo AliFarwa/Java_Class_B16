@@ -27,7 +27,7 @@ public class E2ConfigReader {
     }
 
     public static String getProperty(String key) throws IOException {
-        FileInputStream fis = new FileInputStream(Constants.CONFIG_READER_PATH);
+        FileInputStream fis = new FileInputStream(Constants.EXCEL_FILE_PATH);
         Properties properties = new Properties();
         properties.load(fis);
         return properties.getProperty(key);

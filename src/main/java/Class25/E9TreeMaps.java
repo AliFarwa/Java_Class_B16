@@ -14,6 +14,7 @@ public class E9TreeMaps {
         makeup.put("Eyeliner", 80.0);
         makeup.put("Lipstick", 150.0);
         makeup.put("Base", 25.0);
+        System.out.println(makeup);
         //how to use arrays with maps
 //Collection is father of all the frame
         Collection<String> keys=makeup.keySet();// this will only print the keys.
